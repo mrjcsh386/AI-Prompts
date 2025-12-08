@@ -1,0 +1,29 @@
+Work History Catalogue {
+  Company Name: "" {
+    Contact Information {
+      - Address:
+      - Hiring Manager: # Name( Phone number )
+      - Shift Supervisor/Manager: # Name( Phone number )
+    }
+    Position {
+      # Titles for 'role' can be treated as inter-changable in regards to
+      #   relevance to posted job description applied for.
+      - Starting Date:
+        - Starting Role:
+        - Starting Wage:
+      - Finishing Date:
+        - Finishing Role:
+        - Finishing Wage:
+    }
+    Responsibilities {
+    }
+    Achievements {
+    }
+    Skills {
+      Technical {
+      }
+      Soft {
+      }
+    }
+  }
+}
