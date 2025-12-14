@@ -1,0 +1,35 @@
+Prompt Engineering: Strata
+
+   A prompt does not summon a deterministic function. It perturbs a
+ probabilistic field that already has gradients. Recency effects, system-level
+ adjustments,  hidden state resets, sampling noise, model updates, even your
+ own wording choices that feel identical but aren't. Expecting identical outputs
+ across time is like expecting the same cloud twice because you stood in the
+ same field. It should be considered normal that prompt quality varies day to
+ day and session to session.
+
+   Think of the system as stratified. At the bottom are tectonic plates: 
+ training distribution, architecture, alignment constraints. You don't touch
+ these. Above that are prevailing currents: system prompts, project files,
+ recent conversation history. These shift slowly. Then come local weather
+ patterns: your phrasing, tone, examples, the immediate conversational 
+ momentum. That's where butterflies live. That's where chaos feels personal.
+
+ Most people confuse weather noise with climate change.
+
+ Developing taste is learning to ask:
+ "Did this fail because the atmosphere was turbulent, or because my structure
+  was weak?"
+
+   A good prompt doesn't eliminate variance. It 'damps' it. It narrows the
+ distribution so that even bad days are acceptable and good days are excellent.
+ A brittle prompt produces brilliance once and nonsense twice. A mature prompt
+ produces usefulness almost always and insight occasionally.
+
+ If a prompt only works when the air is still, it isn't finished.
+ If it works across turbulence, it's becoming infrastructure.
+
+   The chaos doesn't go away. You learn which layers you're actually influencing
+ and which ones you should stop arguing with. That's not resignation. That's
+ seamanship. At that point, variance stops feeling like betrayal and starts
+ feeling like signal.
