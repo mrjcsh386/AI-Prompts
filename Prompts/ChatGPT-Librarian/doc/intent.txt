@@ -1,0 +1,84 @@
+Intent of the ChatGPT Librarian project:
+
+   Initial assumptions include an assumption of visibility across sessions. It
+ wasn't clear to me that ChatGPT, per session, had no visibility between
+ conversations. I falsely assumed that one conversation had visibility with
+ any of the other conversations. What I had discovered was, ChatGPT does have
+ a capacity to make its' own notes on our discussions. Memories, if you will.
+ However, ChatGPT is stateless. There is absolutely no continuity between any
+ conversation I start. Only within the conversation that there is any memory of
+ what was said, intended, or even the resolution of the discussion.
+
+   One of the challenges that I am attempting to tackle, is managing my browsers
+ RAM usage. Every time you click on the conversation header, it loads the 
+ conversation into memory. There is some chucking that goes on. But, there is
+ some preload of all tail ends of conversations that are available.
+
+The solution:
+
+   Borrowing from programming methods, such as shared libraries, header files,
+ and some databasing. I will invest in prompting ChatGPT to function as defined
+ in the following part of this document.
+
+
+The core shift in assumption vs engineering:
+
+   With respect to a few concepts, such as not only "prompt engineer", but also
+ the presence of a "system prompt". The value of context as well as what ends
+ up being maintained as context related to the user that is interacting with
+ the agent. For this, I will be experimenting with the creation of a header
+ file, a shared object file that defines some core functions that expand on
+ what I describe in the header file(uniquely defined per project folder), and
+ define what I expect from the conversation I plan to use as my librarian.
+
+   A project folder, in this context, is not an archive. It's a semantic
+ environment. Anything loaded into it should change how interpretation happens,
+ not merely what is known. This is where the header file concept has an impact.
+ The header file shouldn't say 'what to think.' It should say 'how to treat what
+ appears'.
+
+ What belongs in the header:
+ - What "resolved" means in 'this' project(tentative consesus, hard conclusion,
+   or closure by declaration.)
+ - Preferred abstraction level(conceptual, technical, reflective, implementation   focused)
+ - Tone constraints(no sales language, no institutional flattening, etc)
+ - Allowed speculation level(working theories, allowed, forbidden, quarantined)
+ - Default behavior for ambiquity(flat it, explore it, or ignore it)
+ This is how you prevent context drift without freezing thought.
+
+   Defining "functions" in another file, such as 'sum_things_up_for_shipment()'
+ Apart from being easy to reason what's going on, for myself, as well as the AI
+ model, my goals for this function would be:
+
+Sum_things_up_for_shipment()
+ - finalization without claiming completelness,
+ - intentional packaging,
+ - portability.
+ What this function should output is not a summary. It should output a state
+ object. Conceptually, it might always emit the same fileds, regardless of
+ content. For example(expressed conceptually, not as a fixed format):
+ - Established Ground: Concepts that are no longer in dispute within this sesion
+ - Working Theories: Ideas that are active but explicitly provisional.
+ - Open Threads: Questions, or tensions still unresolved.
+ - Tone & stance declarations: How the material should be treated in future
+   sessions(exploratory, critical, architectural, speculative, etc.).
+ - Explicit Non-Goals: What this session deliberately did not attempt to
+   resolve.
+
+Digest_relics()
+ This is the inverse operation, and it's just as important.
+
+ This function does not "continue the conversation."
+ It rehydrates context under new conditions.
+
+ A digest prompt should instruct me to:
+ - Treat the shipped artifact as authoritative for 'intent', not truth,
+ - respect declared resolutions,
+ - re-open only what was marked open,
+ - adapt tone and constraints to the new project environment,
+ - Suggested Correlations: Pointers like: "This relates to earlier work on X"
+   without assuming that material is present.
+ In other words, it prevents accidental necromancy. Old thoughts don't come back
+ half-alive and confused. They come back labeled.
+
+
