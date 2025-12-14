@@ -1,0 +1,173 @@
+Prompt Engineering: Notes from someone trying to understand what they're 
+  actually doing.
+
+   I'm starting from the assumption that prompt engineering is not magic, not a
+ job title, and not a set of tricks. It's closer to applied communication under
+ an as of yet, not understood set of phyical laws bridgine the gap between a
+ light bulb, and an LLM. In this case, the other party just so happens to be a
+ statistical language engine with no inner life, and unsettling talent for
+ imitation.
+
+   The IBM material frames prompt engineering as a discipline. That feels
+ correct, but incomplete. A displine implies rules you can memorize. Prompt
+ engineering feels more like learning how gravity behaves differently on each
+ planet you could possibly visit.
+
+
+A Prompt is not an instruction, it is an environment:
+
+   There are two metaphores that I find useful and have evolved as I experiment
+ with AI that seem to hold the most substantial salt. The first, which I compare
+ to the 'relationship' of sorts, is that of a loom. Its end result is most
+ certain a tapestry, however that isn't entirely the how it responds to you.
+ As you interact with it, as you pull and lax certain fibers, on a traditional
+ loom, you end up with patterns that can be as complex as you can percieve them
+ to potentially be. The more time you spend with it, the more it reflects your
+ values. That will always be distinct between yourself and the model you spend
+ the most time with. Most likely, this is in part what contributes to the tribes
+ of preferential selection of certain models. The tapestry that's available at
+ the start feels more agreeable to ones sensabilities. Either way, we as the
+ users of generative models contribute to how it responds. This brings me to the
+ other metaphore that makes the most sense to me. If you cast a laser beam
+ into the dark, under normal circumstance, you don't tend to see the light beam
+ itself. You bare witness to the particles between you and what ever it is that
+ you point the laser at. If you consider for a moment that the space you point
+ that laser through, as the pool of training data it was trained on, which can
+ be anywhere between authoritaitive documentation written in peer-reviewed
+ scientific journals strait through to the other end of the spectrum down to
+ a overly caffeinated skitzoid on a random forum jotted down at 3 am after some
+ delusional rabbit hole splunking session. Which brings me to my next point.
+
+   It's been well documented and shared on various social media platforms that
+ AI agents have expresed troublesome responses, including doomsday predictions,
+ and threating contridictions to what AI models are configured to share. The
+ the thing is this. If there is one thing to understand the most about prompting
+ an AI agent is, what you say to it is what the AI agent uses to sift through
+ all the information it was trained. The very act of being rude, or polite to it
+ provides the climate that seasons its responses. If it's apparent that you are
+ 'wanting' a terrifying response. It's likely to say something of that nature.
+ It's very important to understand that there is no intent, just context.
+
+   When I write a prompt, I am not telling the model what to do. I am shaping
+ the conditions in which a certain kind of answer becomes more likely. This
+ reframing matters, because it explains why small wording changes cause large
+ output changes. The model isn't disobeying, or even hallucinating. It's just
+ reacting to a different climate.
+
+   This explains why "good prompts equal good results" is true but shallow.
+ A better statement could be: Good prompts reduce ambiguity in the direction
+ you care about.
+
+
+Techniques as mental tools, not recipes:
+
+   There are a lot of guides that list zero-shot, chain-of-thought,
+ tree-of-thoughts, iterative prompting, or role prompting. These are often
+ treated as named methods that have a misleading affect.
+
+   Each technique is really an answer to a different problem.
+
+ Zero-shot prompting answers:
+ "Can this model generalize without guidance?"
+
+ Few-shot prompting answers:
+ "Can I bias the output shape without explicitly explaining it?"
+
+ Chain-of-thought answers:
+ "Will the model reason better if I slow it down and give it a path?"
+
+ Iterative prompting answers:
+ "What if I stop pretending I know the right question on the first try?"
+
+ Tree of thoughts is not a technique so much as an admission:
+ "One linear answer is a lie when the problem space is branching."
+
+ Seen this way, prompt engineering becomes the act of choosing which 'failure
+ mode' you prefer. Speed vs. accuracy. Creativity vs. control. Exploration vs.
+ convergence.
+
+
+Agentic prompting and the illusion of control:
+
+   Agentic prompting sounds impressive. It suggests autonomy, planning, 
+ decision-making. In practice, it's scaffolding. We simulate agency by chaining
+ constraints.
+
+   The model does not plan. It appears to plan when the prompt creates a loop
+ that rewards coherence over time.
+
+   This is not a criticism. It's a warning against anthropomorphism. If I
+ believe the model "knows what it's doing," I will stop checking my assump-
+ tions. That's when hallucinations become persuasive.
+
+ A useful mental rule:
+ If a system feels intelligent, double-check the boundaries you gave it.
+
+
+Prompt security is really more of a designing of boundary:
+
+   Prompt injection and jailbreaks are framed as attacks. They are, but they're
+ also demonstrations of something deeper: prompts are porous. If a prompt can
+ be oeverridden, it wasn't a boundary. It was a suggestion. Security-oriented
+ prompting is not about clever wording. It's about separating roles, data, and
+ authority in a way the model can't easily collapse. This mirrors classic
+ computer security princples, except the "processor" is probabilistic and
+ polite. That's the part that's unsettling, and also fascinating.
+
+
+What a prompt engineer actually does:
+
+   The IBM pages refer to prompt engineering is the act of testing, and
+ refining prompts. That's accurate, but still vague. What they really do is
+ this... They observe where meaning leaks. They notice when the model answers
+ to the letter of a request but miss the intent. They develop a sense for when
+ to add context, when to remove it, and when to stop talking altogether.
+ Verbosity is not clarity, nor transparency. They learn that examples teach
+ faster than explanations. That every word has weight. Hence why the inclusion
+ of the idea of climate has meaning. As does gravity. Humidity has an affect on
+ how fast the stone drops in comparison to a feather. These are the distinctions
+ that have the most impact. These are the things that we are learning in the use
+ of AI as it is today. I'll refer back to what I said before about troublesome
+ AI responses. The tone and emotion we project into our prompts, whether it be
+ conversational, or iterative engineering, creates the variety of conditions
+ that eliminates radical values of entropy within the training data it was
+ asked to digest in order for it to respond to you. It's the mad man, it's the
+ doomsday prediction cast by a play write, movie, or short story. It's also
+ the quietly impactful scientest that carefully redesigns how we see our world.
+ How you speak to it, shapes how it responds, and by which persona it does that
+ in. Be careful of this.
+
+
+My working definition (subject to revision):
+
+   Prompt engineering is the practice of shaping language so that a non-
+ understanding system behaves as if it understands the part you care about.
+
+   It is closer to interface design than programming. Closer to teaching than
+ commanding. Closer to steering than driving. If I do this well, the model
+ feels helpful. If I do it poorly, the model feels confident and wrong.
+
+ THAT is the difference that matters.
+
+ Why I'm treating this as study material, not gospel. There are many guides out
+ there that prove to be fruitful. They're structured, comprehensive, and correct
+ in many places. But, it is also corporate, optimistic, and tidy in a domain
+ that is none of those things. 
+
+ My goal isn't to memorize techniques.
+ My goal is to develop taste.
+
+ Taste is knowing when a prompt is doing too much.
+ Taste is recognizing when a result is impressive but brittle.
+ Taste is being able to say, "That worked, but I don't trust why."
+
+ That kind of understanding doesn't come from guides alone. It comes from
+ friction, mistakes, and reflection.
+
+ Which is why this document exists.
+
+ Not as a summary.
+ Not as a tutorial.
+ But as a snapshot of understanding in motion.
+
+ It will change.
