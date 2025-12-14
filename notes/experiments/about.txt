@@ -1,0 +1,14 @@
+Introduction:
+
+   This workbook is designed for practice, reflection, and experimentation. It
+ is not a manual. It's purpose is to cultivate an intuitive understanding of AI
+ responses. The subtle "climate" that shapes outputs.
+
+ The exercises here will encourage:
+ - Observation of model behavior under varying conditions
+ - Awareness of subtle influence of wording, structure, and context
+ - Recognition of patterns in success and failure
+ - Development of personal taste in prompt engineering
+
+ Your objective: Treat each prompt as an experiment. Document, iterate, and
+ reflect. Taste emgerges in friction and reflection.

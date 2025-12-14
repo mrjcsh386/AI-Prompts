@@ -1,0 +1,12 @@
+Exercise 5: Cross-Model Translation
+Objective: Learn how prompt sensitivity varies across models.
+
+ Instructions:
+ 1. Select a single prompt.
+ 2. Run it on multiple LLMs: GPT-4, GPT-3.5, Claude, Bard, etc.
+ 3. Compare outputs for: tone, reasoning path, hallucinations, accuracy.
+
+ Reflection Questions:
+ - Which structures are universally understood?
+ - Which elements are model-specific?
+ - How might this influence prompt design in multi-model workflows?

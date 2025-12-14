@@ -1,0 +1,13 @@
+Exercise 6: Iterative Co-Creation
+Objective: Observe prompt evolution over multiple iterations.
+
+ Instructions:
+ 1. Choose a creative project (story, code, explanation).
+ 2. Start with a rough prompt
+ 3. Generate output, then refine the prompt based on weaknesses.
+ 4. Repeat until output aligns with your vision.
+
+ Reflection Questions:
+ - What small changes had disproportionate effects?
+ - How does iteration shape clarity and creativity?
+ - How does observing friction refine your taste?

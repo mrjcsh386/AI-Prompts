@@ -1,0 +1,13 @@
+Exercise 3: Role-Switching Prompts
+Objective: Understand persona and style influence.
+
+ Instructions:
+ 1. Ask the model to respond as different personas: teacher, villain, scientist,
+    poet.
+ 2. Compare outputs.
+ 3. Predict the effect of persona before generating and check accuracy.
+
+ Reflection Questions:
+ - How does tone change meaning or clarity?
+ - How much of the output is content vs. style-driven?
+ - Does your expectation of style align with reality?

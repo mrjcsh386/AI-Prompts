@@ -1,0 +1,14 @@
+Exercise 2: Failure Mode Hunting
+Objective: Explore the model's limits.
+
+ Instructions:
+ 1. Give the model an ambiguous, contradictory, or unusual prompt.
+ 2. Observe the failure points: hallucinations, irrelevant details,
+    contradictions.
+ 3. Attempt to redirect or clarify by rephrasing.
+
+
+ Reflection Questions:
+ - What patterns emerge in failure modes?
+ - How easily can you steer the output back?
+ - What does this teach you about the model's boundaries?

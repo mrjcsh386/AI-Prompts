@@ -1,0 +1,13 @@
+Exercise 4: Minimalist vs. Maximalist
+Objective: Find the balance between over-specification and ambiguity.
+
+ Instructions:
+ 1. Take a moderately complex question.
+ 2. Create on ultra-short prompt, one highly detailed prompt.
+ 3. Generate outputs and compare
+ 4. Iteratively adjust toward a "sweet spot."
+
+ Reflection Questions:
+ - When does brevity enhance understanding?
+ - When does detail prevent ambiguity?
+ - How does iteration help find balance?

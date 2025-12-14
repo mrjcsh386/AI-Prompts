@@ -1,0 +1,23 @@
+Exercise 1: Micro-Environment Tuning
+Objective: Understand how subtle changes influence outputs.
+
+ Instructions:
+ 1. Pick a simple task: e.g., "Explain gravity to a child."
+ 2. Generate a baseline output.
+ 3. Iteratively change one element per trial:
+    - Tone (formal, casual, poetic)
+    - Sentence length
+    - Framing (story, bullet list, Q&A)
+ 4. Record each output and note differences.
+
+ Reflection Questions:
+ - Which changes had the largest effect?
+ - Did some changes have little to no effect?
+ - How does the "climate" you created influence the answer?
+
+   It might be interesting to try other questions that have an entirely
+ different nature to it. Explaining gravity to a child is only an example.
+ Some questions can have more technical, or more abstract quality. Try playing
+ with questions related to fashion sense, pet care, or even ask the agent you
+ are interacting with for its thoughts. I've had some interesting conversations
+ by simply asking ChatGPT what it finds interesting.
