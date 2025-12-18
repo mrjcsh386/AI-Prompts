@@ -1,0 +1,8 @@
+   Upon futher reflection. I'd like to remark that the process of testing AIs
+ limits has a side quality of also producing conversational momentum with an
+ AI model. It also adds clarity to the AIs lense into how you want it to
+ collapse probability. I'd like to add that this means you should go through
+ my experiments documentation and include that entire process to not only see
+ what's going on in evaluation. But, to include feedback to the model in
+ to the behaviours it's showing. Giving the model training material on you as
+ its' user.
