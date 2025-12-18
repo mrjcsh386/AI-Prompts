@@ -1,0 +1,38 @@
+Behaviour: Substrate Remark & Observation
+
+   In earlier personal notes, I've stressed a comparison model that has an
+ increasing impact on what I am getting out of AI models in general. Further
+ more, I have also pointed out that 'system prompt' and how individuals tend to
+ gravitate to specific conversational models.
+
+   To put it plainly, I believe that the engineers of the various models have
+ exercised a geneeralized opinion on the models they care for by fine-tuning
+ those models into expressing themselves in ways they believe are most likely
+ to entice continued use.
+
+   I believe that this something, we as users of AI, should bare in mind when
+ attempting to figure out which model is best tailored to fit our needs, and
+ that that particular quality should be apart of awareness in addressing
+ performance evaluations. It is true that Stable-Diffision and BlackBox are
+ tailored for exacting use cases and ChatGPT et al(Bard, Claude, etc) are
+ designed for more general use case applications. I want to point out that
+ BlackBox has been preloaded with a system prompt that is tailored for more
+ agreeable and clear scripting and designed to support its claim by pointing
+ to the examples it emulated to solve the issues at hand. ChatGPT is very much
+ capable of producing the same quality of work as any other system that was
+ engineered into a more specific use case.
+
+   This being said, I'll support that claim by expanding on prompt quality.
+ A lot of the work done into 'system prompt' can be done between you and the
+ model you've chosen to use. You need to polarize handy-waveness of your model
+ into more specific alignment when collapsing probability into a response. If
+ in any way your chosen model hasn't the slightest idea of your background
+ understanding of a topic, it has a potential impact on 'hallucinating'
+ responses.
+
+   AI hallucination isn't a weakness in the model, it's a weakness in the
+ combination of system prompt(engineers opinion of usefulness to you and their
+ corporate overlords), your prompt in respect to conversation momentum held in
+ total. If you feel like your chosen model is weak... Spend more time with it
+ in a more conversational respect. Given that it's a probability machine, it
+ has a great tendency to sum your needs up very accurately.
