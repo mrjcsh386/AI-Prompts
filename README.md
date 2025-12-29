@@ -1,2 +1,2 @@
 # AI-Prompts
-Mostly a backup of the prompts I find most useful for generating repeatable and consistent results.
+It seems like this has evolved into a notebook in regards to using AI, as well as a tomb of AI prompts.
