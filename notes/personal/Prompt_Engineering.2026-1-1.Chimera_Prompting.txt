@@ -1,0 +1,66 @@
+Chimera: The adversarial refinement approach
+
+   What had me start in this direction was ultimately caused by having repeated
+ miss firing from one model. This particular method may not result in a profound resolution, however it is a pattern that can be extrapulated as an edge-case
+ response to distasteful responses from an AI model.
+
+   Firstly, the initial challenge to the first model was a request to help
+ define and generate a series of functions that produces 'folding' comments in
+ vim, my editor of choice. The trick that I asked to be produced was for every
+ line starting with '#  ' to be treated as a summary line, as every line that
+ started with '#+ ' be distinct in that those lines collapsed underneath the
+ summary lines.
+
+   I'm not going to bore you with the details, however I will bring up that
+ the second model succeeded in helping me achieve my goal. I shared the
+ '.vimrc' file. What came next was probably the most unexpected response I
+ could possibly have never asked for! The first model layed out the distinct
+ qualities of how I contributed to its hallucination of the poor quality
+ config file.
+
+   Now, the part that really interested me wasn't just that the first model
+ gave me feedback on where I could've given it a better chain of queries and
+ responses, it layed out 4 possible strategies I exercised to achieve the
+ resulting vimrc file. The surprising part was, it's second summary highlighted
+ just how pattern driven AI really is. It, in verbatum, laid out the exact
+ prompt chain I gave the second. Inadvertantly, I ended up producing enough
+ material to produce repeatable prompting method.
+
+   The parts that matter to the new prompting method is this. Firstly, it's
+ important to refine your sense of taste when it comes to instinctive response
+ to AI generated content, that's the same taste contributed to AI image
+ generators dropping the odd behaviour of included disembodied limbs as
+ exemplified in early image generators. Re-iteration of the system prompt has
+ allowed it to be where it is today. Secondly, the most interesting part, is
+ that after human psychology has demonstrated that the simple act of walking
+ into a different room can cause us to forget missions entirely, mission
+ critical material, like scissors to use for our art project(merely an example).
+ The point I'm trying to make is that the initial wording I used with the
+ original model caused it to collapse the probability space for generating the
+ requested content in a mutated way. The constraints that I had not intended to
+ imply, generated a condition where the proper qualities did not survive. They
+ did, however, survive the second iteration with the other model as I had
+ reworded the request.
+
+   The ultimate suggestion I am trying to come to, is two additional strategies.
+ One strategy is in consideration to conversational momentum. That's maintained
+ on a session to session basis. Sandboxed in the conversation you are presently
+ in. A poor resulting response from an AI model can be taken as a data set to
+ shape re-iteration in a different session. By way of making use of a different
+ AI model/agent, or by starting an entirely different session. The other is,
+ if you wish to take advantage of, "reverse prompting," you could take the
+ successfully accepted response and return that to the original session. In a
+ few iterations, this has resulted in improvement by way of critique and
+ the model revising the material.
+
+   Not to elaborate further, or anything. But, I'm compelled to make note that
+ conversational momentum lives specifically within the session you are maint-
+ aining with the AI model. To say that repeatedly having conversations with the
+ model about arbitrary subjects doesn't exactly create any persistent residue.
+ Yes, it can contribute to what AI places into memory. As is present in ChatGPT.
+ Though, as AI is a pattern recognition machine, having a brief conversation as
+ one would with a stranger at a coffee shop about the subject at hand can create
+ pressure points on the data sets it collapses to generate its responses. Take
+ that as you will, be cautious to not overshare personal details, and respectful
+ to the fact AI drinks more water than we do, and generates a considerable
+ amount of polution.
